@@ -35,4 +35,13 @@ Lita.configure do |config|
   config.handlers.pco_api_client.api_url = 'https://api.planningcenteronline.com'
   config.handlers.pco_api_client.scope = 'resources'
   config.handlers.pco_api_client.host_url = 'https://arcane-dawn-97637.herokuapp.com'
+
+  if ENV['RACK_ENV'] == 'production'
+    config.robot.adapter = :slack
+    config.redis[:url] = ENV.fetch('REDI_URL')
+  else
+    config.robot.adapter = :shell
+  end
+
+  config.adapters.slack.token = ENV.fetch('SLACK_TOKEN', '')
 end
