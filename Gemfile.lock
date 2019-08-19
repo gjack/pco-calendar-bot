@@ -90,6 +90,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (> 1.3)
   lita
   lita-pco-api-client!
   lita-resources-api-client!
