@@ -41,4 +41,8 @@ Lita.configure do |config|
   end
 
   config.adapters.slack.token = ENV.fetch('SLACK_TOKEN', '')
+  config.adapters.slack.parse = "full"
+  config.adapters.slack.link_names = true
+  config.adapters.slack.unfurl_links = false
+  config.adapters.slack.unfurl_media = false
 end
