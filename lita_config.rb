@@ -30,11 +30,8 @@ Lita.configure do |config|
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
-  # config.handlers.pco_api_client.oauth_app_id = ''
-  # config.handlers.pco_api_client.oauth_secret = ''
-  config.handlers.pco_api_client.api_url = 'https://api.planningcenteronline.com'
-  config.handlers.pco_api_client.scope = 'resources'
-  config.handlers.pco_api_client.host_url = 'https://arcane-dawn-97637.herokuapp.com'
+  # config.handlers.resources_api_client.auth_token = ''
+  # config.handlers.resources_api_client.auth_secret = ''
 
   if ENV['RACK_ENV'] == 'production'
     config.robot.adapter = :slack
