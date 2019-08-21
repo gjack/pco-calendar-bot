@@ -1,1 +1,1 @@
-web: bundle exec lita -p $P
+web: bundle exec lita -p $PORT
