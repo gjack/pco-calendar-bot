@@ -36,7 +36,7 @@ Lita.configure do |config|
   if ENV['RACK_ENV'] == 'production'
     config.robot.adapter = :slack
     config.redis[:url] = ENV.fetch('REDIS_URL')
-    config.http.port = $PORT
+    config.http.port = ENV.fetch('PORT') || "#{$PORT}"
   else
     config.robot.adapter = :shell
   end
