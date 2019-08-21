@@ -1,3 +1,12 @@
+require 'rubygems'
+require 'bundler'
+
+$stdout.sync = true
+Bundler.require(:rack)
+
+port = (ARGV.first || ENV['PORT'] || 3000).to_i
+env = ENV['RACK_ENV'] || 'development'
+
 require 'heroku-forward'
 require 'heroku/forward/backends/puma'
 
