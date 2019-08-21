@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/gjack/lita-resources-api-client
-  revision: c3f0269eff38552b1ab8d6e239719730b936e125
+  revision: 0a485f083b9033604e45972b3a207d64ff34c471
   specs:
     lita-resources-api-client (0.1.0)
       lita (>= 4.7)
