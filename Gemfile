@@ -13,6 +13,7 @@ gem "lita"
 # gem "lita-google-images"
 # gem "lita-karma"
 # gem 'lita-resources-api-client', path: '../lita-resources-api-client'
-gem 'lita-resources-api-client', git: 'https://github.com/gjack/lita-resources-api-client'
+# gem 'lita-resources-api-client', git: 'https://github.com/gjack/lita-resources-api-client'
 gem 'lita-slack'
 gem "bundler", "> 1.3"
+gem "lita-resources-api-client", :path => "plugins/lita-resources-api-client"

@@ -1,0 +1,3 @@
+[submodule "plugins/lita-resources-api-client"]
+	path = plugins/lita-resources-api-client
+	url = https://github.com/gjack/lita-resources-api-client
