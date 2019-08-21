@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/gjack/lita-resources-api-client
-  revision: 6816dfc50a86288c1c19e153198566632f7ee5c5
+  revision: 46677d6b2b39960a17749c4e0b31d856b8be1e90
   specs:
     lita-resources-api-client (0.1.0)
       lita (>= 4.7)
@@ -22,7 +22,7 @@ GEM
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
-    i18n (0.9.5)
+    i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     lita (4.7.1)
