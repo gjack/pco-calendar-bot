@@ -1,1 +1,1 @@
-web: bundle exec lita -p $PORT 
+worker: bundle exec lita -p $PORT 
