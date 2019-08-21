@@ -1,6 +1,7 @@
 Lita.configure do |config|
   # The name your robot will use.
   config.robot.name = "PCO Calendar"
+  config.robot.alias = "/"
 
   # The locale code for the language to use.
   # config.robot.locale = :en
@@ -17,7 +18,6 @@ Lita.configure do |config|
 
   # The adapter you want to connect with. Make sure you've added the
   # appropriate gem to the Gemfile.
-  config.robot.adapter = :shell
 
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
@@ -36,6 +36,7 @@ Lita.configure do |config|
   if ENV['RACK_ENV'] == 'production'
     config.robot.adapter = :slack
     config.redis[:url] = ENV.fetch('REDIS_URL')
+    config.http.port = $PORT
   else
     config.robot.adapter = :shell
   end
