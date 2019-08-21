@@ -1,1 +1,1 @@
-web: bundle exec lita -p $PORT 
+web: bundle exec ruby pco_calendar_bot.ru
