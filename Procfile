@@ -1,1 +1,1 @@
-worker: bundle exec ruby config.ru
+web: bundle exec lita -p $P

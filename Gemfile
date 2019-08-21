@@ -16,5 +16,3 @@ gem "lita"
 gem 'lita-resources-api-client', git: 'https://github.com/gjack/lita-resources-api-client'
 gem 'lita-slack'
 gem "bundler", "> 1.3"
-gem "heroku-forward"
-gem "puma"
