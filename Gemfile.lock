@@ -83,6 +83,7 @@ DEPENDENCIES
   lita
   lita-resources-api-client!
   lita-slack
+  puma
 
 BUNDLED WITH
    2.0.2
