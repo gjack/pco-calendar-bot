@@ -17,3 +17,4 @@ gem "lita"
 gem 'lita-slack'
 gem "bundler", "> 1.3"
 gem "lita-resources-api-client", :path => "plugins/lita-resources-api-client"
+gem "lita-pco-api-client", git: 'https://github.com/gjack/lita-pco-api-client'
