@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/gjack/lita-pco-api-client
-  revision: d44ed36accd7c9572598d94d2cd3a9ab2cafbf48
+  revision: 5f1e51903d1a64472a2bdcd6efa5dbb8c3d6053a
   specs:
     lita-pco-api-client (0.1.0)
       launchy
